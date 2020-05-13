@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.section {
+  display: flex;
+  padding: 5em 0;
+  margin: auto;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.column {
+  padding: 0 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media only screen and (max-width: 556px) {
+    text-align: center;
+  }
+}
+
+.row-column {
+  display: flex;
+  justify-content: space-between;
+  @media only screen and (max-width: 808px) {
+    flex-wrap: wrap;
+  }
+}
+
+app-recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

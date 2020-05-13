@@ -1,0 +1,16 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="" class="navbar-brand"></a>
+    </div>
+    <div class="navbar-collapse">
+      <button mat-fab>+</button>
+      <button mat-button [matMenuTriggerFor]="menu">Manage</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Recipes</button>
+        <button mat-menu-item>Shopping List</button>
+      </mat-menu>
+    </div>
+  </div>
+</nav>
+

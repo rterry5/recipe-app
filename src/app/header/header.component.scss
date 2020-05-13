@@ -1,0 +1,11 @@
+@import 'src/palette.sass';
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: $primary-color-dark;
+  color: $primary-color-text;
+  padding: 1em;
+}
